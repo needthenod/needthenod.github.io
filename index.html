@@ -63,23 +63,7 @@
     mixpanel.init("efa581b9cbed53102102a8694d8638b8");
     </script>
     <!-- end Mixpanel -->
-    <script type='text/javascript'>
-        mixpanel.track("Page visit");
-
-        $("#ctaHeader").click(function(){
-            mixpanel.track("CTA Header Click");
-        });
-
-        $("#ctaTWitter").click(function(){
-            mixpanel.track("CTA Twitter Click");
-        });
-
-        $("#ctaNewsletterSignup").click(function(){
-            mixpanel.track("CTA Newsletter Signup");
-        });
-        
-
-    </script>
+    
 </head>
 
 <body>
@@ -180,6 +164,23 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+        mixpanel.track("Page visit");
+
+        $("#ctaHeader").click(function(){
+            mixpanel.track("CTA Header Click");
+        });
+
+        $("#ctaTWitter").click(function(){
+            mixpanel.track("CTA Twitter Click");
+        });
+
+        $("#ctaNewsletterSignup").click(function(){
+            mixpanel.track("CTA Newsletter Signup");
+        });
+        
+
+    </script>
 </body>
 
 </html>
